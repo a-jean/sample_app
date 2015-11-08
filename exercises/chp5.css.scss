@@ -1,0 +1,30 @@
+/* footer */
+
+$light-gray: #777;
+$gray-medium-light: #eaeaea;
+$gray: #555;
+$gray-darker: #222;
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $gray-medium-light;
+  color: $light-gray;
+  a {
+  color: $gray;
+  &:hover {
+  color: $gray-darker;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+&li {
+  float: left;
+  margin-left: 15px;
+ }
+}
